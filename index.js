@@ -24,3 +24,19 @@ for (let linha of partes) {
     else if(numero>=400 && numero<=599){
         console.log("erro")}
 }
+const obj =resultados("sucesso","erro")
+
+const resultados = {
+  '/path1': {
+    sucessos: 124,
+    erros: 12
+  },
+  '/api/path2': {
+    sucessos: 125152,
+    erros: 0
+  },
+  '/api/path3': {
+    sucessos: 122,
+    erros: 0
+  }
+}
