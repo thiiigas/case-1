@@ -5,7 +5,7 @@ tela de login interativa , feita para projeto universitário , onde botão de lo
 
 ## # Pontos bônus:
 
-# *●* resposta interativa conforme a quantidade de caracteres da senha
+ *●* resposta interativa conforme a quantidade de caracteres da senha
 
 ## # teste
 
