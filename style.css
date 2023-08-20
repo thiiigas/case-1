@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 0.4rem;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+input {
+  border: 2px solid gray;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.left {
+  transform: translateX(-70px);
+}
+
+.right {
+  transform: translateX(70px);
+}
+
+.red {
+  background-color: rgb(255, 90, 90);
+}
+
+.green {
+  background-color: rgb(91, 250, 91);
+}
+
+.yellow {
+  background-color: rgb(251, 251, 113);
+}
